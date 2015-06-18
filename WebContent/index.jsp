@@ -14,19 +14,6 @@
     <input type="submit" value="Publish">
   </form>
  
-  <%
-  String[] publish = request.getParameterValues("publish");
-  if (publish != null) {
-  %>
-    <h3>This is the Message you want to publish:</h3>
-    <ul>
   
-        <li><%=publish[0]%></li>
-  
-    </ul>
-    
-  <%
-  }
-  %>
 </body>
 </html>

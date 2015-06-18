@@ -41,10 +41,10 @@ public class DeviceTest {
 		//Read properties from the conf file
 		//Properties props = MqttUtil.readProperties("./MyData/device.conf");
 		
-		String org = "946cvp";
-		String id = "IBMDemoPublisher";
-		String authmethod = "use-token-auth";
-		String authtoken = "frDz0_p&kSCCAYmD6h";
+		String org = "h3re4r";
+		String id = "IBM_Publisher";
+		String authmethod = "token";
+		String authtoken = "hdd39gOLWtSq!LyHOJ";
 		//isSSL property
 		//String sslStr = props.getProperty("isSSL");
 		boolean isSSL = false;
